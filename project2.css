@@ -1,0 +1,726 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    width: 100%;
+    height: auto;
+    background-color:whitesmoke;
+    gap: 1rem;
+}
+.section-padding{
+    padding: 100px;
+}
+.navbar-brand img{
+    width: 100px;
+    height: 60px;
+    object-fit: cover;
+}
+
+ .btn{
+    background-color: darkorange !important;
+    border-color: white !important;
+    color: white !important;
+    padding: 5px 20px;
+ }
+ .btn:hover{
+    background-color: green !important;
+    border: 1px solid;
+    color: white !important;
+}
+#btn{
+    background-color: darkorange !important;
+      border-color: white !important;
+       color: white;
+        padding: 5px 20px;
+        border-radius: 5px;    
+}
+#btn:hover{
+    background-color: green !important;
+    border: 1px solid;
+    color: white !important;
+}
+ #home{
+    margin-right: 10rem;
+ }
+
+ 
+ #tb{
+    margin-right: 2rem;
+ }
+ .carousel-item{
+    height:100vh;
+    min-height: 300px;
+
+ }
+ 
+ .carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    color: darkorange;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+    color:white;
+}
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background:rgba(0,0,0,0.7);
+    z-index:1;
+}
+.navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.w-100{
+    height: 100vh;
+}
+
+.sponsors{
+    width: 100%;
+    height: 150px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding-inline: 2rem;
+    gap: 3rem;
+}
+
+.sponsors div img{
+    width: 100%;
+    height: 100%;
+    /* mix-blend-mode: color-burn; */
+    object-fit: contain;
+}
+
+@media screen and (max-width: 767px){
+    .sponsors{
+        height: auto;
+        grid-template-columns: repeat(2, 1fr);
+        padding-inline: 1rem;
+        gap: 1rem;
+    }
+}
+
+.go{
+    width: 100%;
+    height:auto;
+    background-color: whitesmoke;
+    margin-top: 2rem;
+}
+@media screen and (max-width: 767px) {
+   .go img{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    
+   }
+   .go{
+    margin-bottom: 0;
+   }
+    }
+.go h1{
+    margin-bottom: 2rem;
+    padding-top: 1.5rem;
+    color: darkorange;
+    margin-top: 8rem;
+}
+#aboutus{
+     margin-top: 8rem;
+}
+
+#text{
+    background-color: #333;
+    padding-left: 5rem !important;
+}
+
+#text h1{
+    color: darkorange;
+}
+#text p{
+    color: white;
+}
+#holder{
+    position: relative;
+}
+#holder img{
+    width:100%;
+    height:250px;
+    position: absolute;
+    border-radius: 5px;
+    top: 5rem;
+    right: -3rem;
+    filter: grayscale(.7);
+}
+@media screen and (max-width: 767px) {
+    #holder img{
+        position: static;
+    }
+    #text{
+        background-color: #333;
+        padding-left: 2rem !important;
+    }
+}
+/* #holder{
+    z-index: 1px ;
+}
+#holder img{
+    width:100%;
+    height:250px;
+    margin-top:7.5rem;
+    border-radius: 5px;
+    margin-left: 35px; 
+    filter: grayscale(.7);
+}
+#text{
+    width: 760px;
+    height:auto;
+    margin-top: 2.5rem;
+    background-color: rgba(0,0,0,0.7);
+    z-index: -1;
+     
+}
+#text p{
+    padding: 2rem;
+    color: white;
+}
+#text h1{
+    color: darkorange;
+}
+#bot{
+    position: relative;
+    bottom: 4rem;
+    left: 28rem; 
+    
+} */
+
+#y{
+    margin-top: 8rem;
+}
+#why{
+   
+    width: 250px;
+    height: 180px;
+    box-shadow: 1;
+    border-color: darkorange;
+    border-radius: 10px;
+    box-shadow: 20px 10px 20px -10px rgba(0,0,0,.1);
+    padding: 0.5rem;
+}
+#us{
+    color: darkorange;
+    font-weight: 600;
+    
+}
+#why img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+}
+#why h3{
+    color: darkorange;
+}
+#oom{
+    margin-top: 8rem;
+}
+#r{
+    font-weight: 600;
+    color: darkorange;
+}
+#room img{
+    height: 350px;
+    object-fit: cover;
+    filter:grayscale(0.7);
+}
+#rooms img{
+    width: 600px;
+    height: 250px;
+    object-fit: cover;
+    filter:grayscale(0.7);
+    
+}
+#font h4{
+    position: relative;
+   
+    color: darkorange;
+}
+#fontt{
+    position: relative;
+  
+    color: darkorange;
+}
+#fonts{
+    position: relative;
+   
+    color: darkorange;
+}
+#fontss{
+    position: relative;
+    
+    color: darkorange;   
+}
+#button{
+    width: 150px;
+    border-color: white;
+    margin-left: 10px;
+}
+#ant{
+    margin-top: 8rem;
+
+}
+#ant a{
+    position: relative;
+    right: 47.6rem;
+    bottom: 2.5rem;
+
+}
+@media only screen and (max-width: 767px) {
+    #ant a{
+        position: relative;
+        left: 0rem;
+        top: 0rem;
+        margin-top: 0.6rem; 
+    }
+    
+}
+@media screen and (min-width:768px) and (max-width: 1024px) {
+    #ant a{
+        position: relative;
+        right: 30.2rem;
+        margin-top: 0.1rem;
+        
+    
+}
+
+}
+ 
+#bar{
+    font-weight: 800;
+    color: darkorange;
+    
+    
+    
+}
+
+#bars img{
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 10px;
+    border-radius: 5px;
+
+
+}
+#service{
+    position: relative;
+    margin-top: 5.4rem;
+    height: auto;
+
+ }
+ #service::after{
+    content: "";
+    display: block;
+    width: 98%;
+    height: 250px;
+    background-color: #333;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .7;
+    z-index: 0;
+    margin-left: 0.80rem;
+
+ }
+
+ #service > *{
+    z-index: 10;
+    
+ }
+
+
+#service img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+#ser{
+    z-index: 2;
+
+}
+#ser h3{
+    position: relative;
+    bottom: 15rem;
+    text-align: center;
+    color: darkorange;
+    z-index: 3;
+    font-weight: bold;
+  
+}
+@media screen and (max-width:767px){
+    #icon h5{
+        font-size: smaller;
+    }
+    #icons h5{
+        font-size: smaller;
+       
+       
+    }
+}
+#icon{
+    z-index: 2; 
+   
+   
+}
+#icons i{
+    color: darkorange;
+    position: relative;
+   bottom: 12rem;
+   z-index: 3;
+   font-size: 2rem; 
+
+}
+
+#icon i{
+   color: darkorange;
+     position: relative;
+    bottom: 12rem;
+    z-index: 3;
+    font-size: 2rem; 
+}
+#icon h5{
+    position: relative;
+    bottom:11.5rem;
+    z-index: 3;
+    color: white;
+    padding: 0.3rem;
+}
+#icons h5{
+    position: relative;
+    bottom:12rem;
+    z-index: 3;
+    color: white;
+    padding: 0.3rem;
+
+}
+
+#end{
+    height:auto;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    margin-top: 6rem;
+    padding: 2rem;
+    width: 100%;
+
+}
+#endf h1{
+    color: darkorange;
+}
+#endhold img{
+    object-fit: cover;
+}
+#endholder{
+    object-fit: cover;
+}
+#ai a{
+    font-size: 2rem;
+    color: darkorange;
+   
+
+}
+
+#endh{
+    margin-top: 5.2rem;
+}
+#endh h3{
+    color: darkorange;
+}
+#line{
+    width: 100%;
+    height: 3px;
+    background-color: #eee;
+    margin-top: 1.5rem;
+}
+#holders img{
+    object-fit: cover;
+
+}
+/* About Page*/
+#story{
+    width: 800px;
+    height: 200px;
+    background-color: rgba(0,0,0,0.7);
+    margin-top: 8rem;
+}
+@media screen and (max-width:767px){
+    #story{
+        width: 90%;
+        height: auto;
+        padding: 15px;
+        margin-top: 1.5rem;
+    }
+    #story p{
+        text-align: justify;
+    }
+}
+#storyt h1{
+    color: darkorange;
+
+}
+#story p{
+    color: white;
+}
+#timon{
+    margin-top: 8rem;
+}
+#mon h1{
+    color: darkorange;
+
+}
+#nal{
+    box-shadow: 20px 10px 20px -10px rgba(0,0,0,.1);
+}
+#monal img{
+    border-radius: 50%;
+    object-fit: cover;
+}
+#monal h3 {
+    color: darkorange;
+}
+#vals{
+    height: auto;
+    padding: 2rem;
+    color: white;
+    background-color:  rgba(0,0,0,0.7);
+    margin-top: 8rem;
+    border-radius: 10px;
+}
+#valus h1{
+    color: darkorange;
+}
+#values h4{
+    color: darkorange;
+    
+}
+#val img{
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+/* Contact Page  */
+#how{
+    margin-top: 7rem;
+}
+#can{
+    box-shadow: 20px 10px 20px -10px rgba(0,0,0,.1);
+    padding: 2rem ; 
+}
+#we h4{
+    color: darkorange;
+
+}
+#box{
+      box-shadow: 20px 10px 20px -10px rgba(0,0,0,.1);
+      margin-top: 7rem;
+
+}
+#boximg img{
+    height: 450px;
+    object-fit: cover;
+}
+@media screen and (max-width:767px){
+    #boximg img{
+        height: 450px;
+        object-fit: cover;
+        width: 100%;
+    }
+}
+
+#input input{
+    width: 100%;
+}
+
+ #inputt input{
+    width: 100%;
+}
+input{
+    border: 1px darkorange solid;
+    width: 100%;
+    height: 40px;
+    padding: 1rem;
+}
+textarea{
+    border-color: darkorange;
+}
+#button button{
+   width:200px;
+   height: 40px;
+    margin-top: -20rem;
+    border-radius: 10px;
+    margin-right: 2rem;
+}
+input::placeholder{
+    font-size: small;
+}
+textarea::placeholder{
+    font-size: small;
+}
+#in{
+    margin-top: 5rem;
+    
+}
+#map{
+    margin-top: 8rem;
+}
+#map iframe{
+    border-radius: 20px;
+}
+#link a{
+    color: darkorange;
+   
+}
+#get{
+    margin-top: 9rem;
+}
+#get h1{
+    color: darkorange;
+}
+#endcontact{
+    background-color: #333;
+    margin-top: 8rem;
+    color: white;
+    
+}
+#endcontact h3 {
+    color: darkorange;
+    margin-top: 3rem;
+}
+#endcontact a {
+    color:white;
+}
+#footerGrid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   
+}
+@media only screen and (max-width: 767px){
+    #footerGrid{
+        grid-template-columns: repeat(1, 1fr) !important;
+        width: 100%;
+    
+    } 
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    #footerGrid{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+    #footerGrid h3{
+        font-weight: bold;
+    }
+}
+/* Resturant & Bar */
+
+#meal{
+    margin-top: 7rem;
+    box-shadow: 20px 10px 20px -10px rgba(0,0,0,.1);
+}
+#meal img{
+    object-fit: cover;
+    border-radius: 10px;
+    padding: 0.5rem;  
+}
+#what{
+    margin-top: 7rem;
+}
+#what h1{
+    margin-bottom: 2rem;
+}
+#rant{
+    color: white;
+    margin-top: 7rem;
+    background-color: #333;
+    height: 450px;
+    padding: 1.5rem;
+    border-radius: 20px;
+   
+}
+#rents img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+/* ROOM */
+#w{
+    box-shadow: 20px 10px 20px -10px rgba(0,0,0,.1);  
+    padding: 1rem;  
+}
+#w img{
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+}
+#w h5{
+   padding-left: 1.5rem;
+    
+}
+#price{
+    margin-top: 8rem;
+}
+#price h1{
+    font-size: 3rem;
+    color: darkorange;
+}
+#l{
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+    margin-bottom: 3rem;
+
+}
+#m{
+    margin-bottom: 2rem;
+}
+#m i{
+   font-size: 3rem;
+   color: darkorange;
+}
+#m h5{
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+#back{
+    width: 100%;
+    height:100px;
+    background-color: #333;
+    padding: 1rem;
+    color: white;
+    margin-top: 0.5rem;
+}
+#mi img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+@media only screen and (max-width:767px) {
+
+}
+
