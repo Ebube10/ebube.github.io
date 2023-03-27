@@ -1,0 +1,141 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    width: 100%;
+    height: auto;
+    background-color:rgb(97, 92, 92);
+    gap: 1rem;
+}
+
+.section-padding{
+    padding: 100px;
+}
+.navbar-brand img{
+    width: 100px;
+    height: 60px;
+    object-fit: cover;
+}
+#home{
+    margin-right: 10rem;
+}
+ #btn{
+    background-color: darkorange !important;
+    border-color: white !important;
+   color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+ }
+ #btn:hover{
+    background-color: green !important;
+    border: 1px solid !important;
+    color: white !important;
+}
+ #tb{
+    margin-right: 2rem;
+ }
+ #login{
+   margin-top: 8rem;
+  
+  
+}
+#lg{
+    border-radius: 10px;
+    box-shadow: 12px 12px 22px gray;
+
+}
+#login h1{
+    font-weight: bold;
+    color: darkorange;
+}
+
+#login img{
+    height: 480px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    object-fit: cover;
+}
+
+.btn1{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color:darkorange;
+    color: black;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.btn1:hover{
+    background-color: green;
+    border: 1px solid;
+    color: white;
+}
+#endcontact{
+    background-color: #333;
+    margin-top: 8rem;
+    color: white;
+}
+#endcontact h3 {
+    color: darkorange;
+    margin-top: 3rem;
+}
+#endcontact a {
+    color:white;
+}
+/* Sign up  */
+
+#footerGrid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   
+}
+@media only screen and (max-width: 767px){
+    #footerGrid{
+        grid-template-columns: repeat(1, 1fr) !important;
+        width: 100%;
+    
+    } 
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    #footerGrid{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+    #footerGrid h3{
+        font-weight: bold;
+    }
+}
+
+#signup{
+    margin: 0 auto;
+    max-width: 400px;
+    padding-top: 200px;
+    width: 800px;
+    height: 800px;
+  
+}
+#signup h1{
+    color: darkorange;
+    font-weight: bold;
+    text-align: center;
+}
+#signup p{
+    text-align: center;
+}
+ @media only screen and (max-width:767px) {
+    body{
+        padding-inline: 0.5;
+    }
+    #endcontact h1{
+        color: darkorange;
+        font-size:1.8rem;
+        display: flex; 
+}
+    
+ }
+
